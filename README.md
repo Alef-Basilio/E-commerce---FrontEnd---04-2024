@@ -32,6 +32,8 @@ HTML, CSS and JavaScript.
 
 ### Server:-->
 
+### API:
+...
 
 <h2 id="how">How was made</h2>
 ...
