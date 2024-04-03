@@ -20,7 +20,7 @@ https
 
 <p align="center">
   <p>
-    <img src="" width="800px">
+    <img src="" width="100%">
   </p>
 </p>
 
