@@ -35,7 +35,7 @@ HTML, CSS and JavaScript.
 ### API:
 ...
 
-</br>
+
 <h2 id="how">How was made</h2>
 ...
 
