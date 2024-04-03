@@ -24,14 +24,12 @@ https
 
 
 <h2 id="tech">Technologies</h2>
-  HTML, CSS and JavaScript.
+HTML, CSS and JavaScript.
 
-  <!--### Client:
+<!--### Client:
 
-  ### Server:-->
+### Server:-->
 
 
 <h2 id="how">How was made</h2>
-
-### Phases:
-  .
+...
