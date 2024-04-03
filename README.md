@@ -36,7 +36,7 @@ HTML, CSS and JavaScript.
 ...
 
 
-<h2 id="how">How was made</h2>
+- <h2 id="how">How was made</h2>
 ...
 
 
