@@ -1,0 +1,179 @@
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 7px;
+}
+
+#logo #logoWord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo #logoWord h1{   
+    font-family: "Kode Mono", monospace, 'Franklin Gothic Medium', sans-serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;  
+}
+
+#logo #logoWord h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kode Mono", monospace, 'Franklin Gothic Medium', sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#logoIcon {
+    height: 45px;
+}
+
+#formSearchBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+#searchBar {
+    z-index: 1;
+    position: relative;
+    height: 16px;
+    width: 100%;
+    padding: 9px;
+    padding-right: 35px;
+    border: 0;
+    border-radius: 0px;
+    margin: 0;
+}
+
+#searchIcon {
+    z-index: 2;
+    height: 20px;
+    padding: 5px;
+}
+
+form button {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border: 0px;
+    margin-right: 1px;
+}
+
+form button::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 26px;
+    right: 30px;
+    border-left: 1px solid black;  
+}
+
+#menuIcon {
+    font-size: 0;
+    cursor: pointer;
+}
+
+#ulMenu {
+    height: fit-content;
+    width: 100%;
+    padding-top: 7px;
+    list-style-type: none;
+}
+
+.menuLi {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid black; 
+}
+
+.menuLi a {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.menuLi:last-child {
+    border-right: 0px;
+}
+
+@media (width <= 1000px) {
+    header {
+        padding-bottom: 10px;
+    }
+
+    #formSearchBar {
+        width: 70%;
+    }
+
+    #menuIcon {
+        font-size: 30px;
+    }
+
+    #menuSpace {
+        position: relative;
+    }
+
+    #ulMenu {
+        padding: 0;
+        border: 1px solid black;
+        margin-top: 6px;
+    }
+
+    .menuLi {
+        border-top: 1px solid black;
+        border-right: 0;
+    }
+
+    .menuLi:last-child {
+        border-bottom: 1px solid black;
+    }
+
+    .menuLi a {
+        display: flex;
+        align-items: center;
+        height: fit-content;
+    }
+
+    #newSearchBar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (width <= 555px) {
+    header #logoWord h1 {
+        display: none;
+    }
+
+    #formSearchBar {
+        width: 100%;
+    }
+}
+
+@media (width <= 555px) {
+    header #logoIcon {
+    display: none;
+    }
+}

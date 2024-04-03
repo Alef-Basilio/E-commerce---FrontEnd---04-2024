@@ -1,0 +1,170 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    color: black;
+    margin: 0;
+}
+
+:root {
+    --color-principal: #58D68D;
+    --color-highlight: #28B463;
+}
+
+header {
+    padding-top: 12px;
+    background-color: var(--color-principal);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.containerContent {
+    width: 75%;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gapBetweenPattern {
+    gap: 25px;
+}
+
+.imagePattern {
+    height: 25px;
+}
+
+.highlight {
+    background-color: var(--color-highlight);
+}
+
+.slides * * {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    animation-name: carouselOpacity;
+    animation-duration: 1s;
+}
+
+.carouselButtons {
+    content: "";
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: var(--color-principal);
+    border-radius: 50%;
+    border: none;
+}
+
+#pinnedMessageSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 43px;
+    width: 265px;
+    background: var(--color-principal);
+    border-radius: 6px;
+}
+
+#products {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--color-principal);
+    border-radius: 5px;
+}
+
+.product * {
+    animation-name: carouselOpacity;
+    animation-duration: 1s;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: var(--color-highlight);
+}
+
+.menuLi:hover {
+    background-color: var(--color-highlight);
+}
+
+.carouselButtons:hover {
+    background-color: var(--color-highlight);
+}
+
+#firstRadio:checked ~ #firstVisualRadio {
+    background-color: var(--color-highlight);
+}
+
+#secondRadio:checked ~ #secondVisualRadio {
+    background-color: var(--color-highlight);
+}
+
+#thirdRadio:checked ~ #thirdVisualRadio {
+    background-color: var(--color-highlight);
+}
+
+#fourthRadio:checked ~ #fourthVisualRadio {
+    background-color: var(--color-highlight);
+}
+
+#fifthRadio:checked ~ #fifthVisualRadio {
+    background-color: var(--color-highlight);
+}
+
+#pinnedMessageSpace:hover {
+    background: var(--color-highlight);
+}
+
+#options a:hover {
+    background-color: #23a459;
+}
+
+@keyframes carouselOpacity {
+    0% {
+        opacity: 0%;
+    }
+    70% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@media (width <= 1000px) {
+    .menuLi:last-child {
+        background-color: var(--color-highlight);
+    }
+
+    .highlight {
+        background-color: transparent;
+    }
+}
+
+@media (width <= 805px) {
+    .slides * * {
+        font-size: 20px;
+    }
+}
+
+@media (height <= 600px) {
+    .container:nth-child(2) {
+        margin-bottom: 5px;
+    }
+
+    .slides * * {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,127 @@
+#carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow-x: hidden;
+    height: 400px;
+    width: inherit;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 87%;
+    width: inherit;
+}
+
+.slides a {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.slides a a {
+    height: 65%;
+    padding-top: 0;
+}
+
+.slides a a img {
+    height: 100%;
+}
+
+#firstSlide {
+    right: 0vw;
+}
+
+#secondSlide, #thirdSlide, #fourthSlide, #fifthSlide {
+    right: -150vw;
+}
+
+#buttonsSpace {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#leftButton {
+    margin-left: 6%;
+}
+
+#rightButton {
+    margin-right: 6%;
+}
+
+#carouselRadiosSpace {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100px;
+    gap: 8px;
+}
+
+#carouselRadiosSpace input {
+    z-index: 0;
+    visibility: hidden;
+}
+
+#carouselRadiosSpace div {
+    z-index: 1;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+@media (width <= 805px) {
+    #carousel {
+        height: 370px;
+    }
+
+    .carouselButtons {
+        height: 50px;
+        width: 30px;
+        font-size: 15px;
+        border-radius: 0;
+    }
+
+    #leftButton {
+        margin-left: 3%;
+    }
+    
+    #rightButton {
+        margin-right: 3%;
+    }    
+}
+
+@media (width <= 555px) {
+    .slides a a {
+        height: 59%;
+    }
+}
+
+@media (height <= 600px) {
+    .slides {
+        height: 82%;
+    }
+
+    #carousel {
+        height: 200px;
+    }
+
+    .slides a {
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+#pinnedMessageSpace {
+    cursor: pointer;
+}
+
+#pinnedMessageSpace i {
+    font-size: 25px;
+}
+
+#pinnedMessageSpace span {
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    color: black;
+}

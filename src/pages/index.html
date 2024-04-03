@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Online Store</title>
+    <link rel="stylesheet" href="../styles/patterns.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/carousel.css">
+    <link rel="stylesheet" href="../styles/pinnedMessage.css">
+    <link rel="stylesheet" href="../styles/products.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="shortcut icon" type="imagex/png" href="../../public/assets/images/logo2Ico.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/718e635023.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container" style="margin-bottom: 0;">
+        <div class="containerContent">
+            <div class="flexRow">
+                <a id="logo" href="">
+                    <img id="logoIcon" src="../../public/assets/images/logo.png" alt="logo_icon">
+                    <div class="flexRow">
+                        <div id="logoWord">
+                            <div>
+                                <h1>Product</h1>
+                                <h1>Online</h1>
+                            </div>
+                            <h2>S</h2>
+                        </div>
+                    </div>
+                </a>
+                <form id="formSearchBar" action="">
+                </form>
+                <div class="flexRow gapBetweenPattern">
+                    <a href="#"><img class="imagePattern" src="../../public/assets/images/terms.png" alt="terms_icon"></a>
+                    <a href="#"><img class="imagePattern" src="../../public/assets/images/support.png" alt="support_icon"></a>
+                    <a href="#"><img class="imagePattern" src="../../public/assets/images/cart.png" alt="cart_icon"></a>
+                    <i onclick="callMenu()" id="menuIcon" class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div id="menuSpace" class="flexRow">
+                <ul id="ulMenu" class="flexRow">
+                </ul>
+            </div>
+            <div id="newSearchBar"></div>
+        </div>
+    </header>
+    <section class="container">
+        <div id="carousel">
+            <div id="firstSlide" class="slides"><a href="#" id="firstSlideChild" class="containerContent"></a></div>
+            <div id="secondSlide" class="slides"><a href="#" id="secondSlideChild" class="containerContent"></a></div>
+            <div id="thirdSlide" class="slides"><a href="#" id="thirdSlideChild" class="containerContent"></a></div>
+            <div id="fourthSlide" class="slides"><a href="#" id="fourthSlideChild" class="containerContent"></a></div>
+            <div id="fifthSlide" class="slides"><a href="#" id="fifthSlideChild" class="containerContent"></a></div>
+            <div id="buttonsSpace">
+                <button onclick="slideBefore()" id="leftButton" class="carouselButtons"><i class="fa-solid fa-arrow-left"></i></button>
+                <button onclick="slideAfter()" id="rightButton" class="carouselButtons"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div id="carouselRadiosSpace">
+                <input id="firstRadio" type="radio" name="carouselRadios">
+                <input id="secondRadio" type="radio" name="carouselRadios">
+                <input id="thirdRadio" type="radio" name="carouselRadios">
+                <input id="fourthRadio" type="radio" name="carouselRadios">
+                <input id="fifthRadio" type="radio" name="carouselRadios">
+                <div id="firstVisualRadio"></div>
+                <div id="secondVisualRadio"></div>
+                <div id="thirdVisualRadio"></div>
+                <div id="fourthVisualRadio"></div>
+                <div id="fifthVisualRadio"></div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div id="pinnedMessageSpace" class="gapBetweenPattern">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>Fast and Secure Delivery!</span>
+        </div>
+    </div>
+    <section class="container">
+        <div id="products" class="containerContent">
+            <div id="productsSpace" class="gapBetweenPattern">
+            </div>
+        </div>
+    </section>
+    <footer class="container" style="margin-bottom: 0;">
+        <div id="footerContent" class="containerContent gapBetweenPattern">
+            <div id="mediaIcons" class="gapBetweenPattern">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div id="informations">
+                <div id="options">
+                        <a href="##"><div>Departments</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>Accessibility</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>Refunds</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>News offers</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>Institutional</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>Historic</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>My account</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="##"><div>Support</div><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div id="logoAndTerms">
+                    <a id="logo" href="">
+                        <img id="logoIcon" src="../../public/assets/images/logo.png" alt="logo_icon">
+                        <div id="logoWord">
+                            <div>
+                                <h1>Product</h1>
+                                <h1>Online</h1>
+                            </div>
+                            <h2>S</h2>
+                        </div>
+                    </a>
+                    <div>
+                        Terms and conditions of how we take care of your privacy. Accessibility information about insurance Blog
+                        Affiliates and Trends.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./components/header.js"></script>
+<script src="./components/carousel.js"></script>
+<script src="./components/pinnedMessage.js"></script>
+<script type="module" src="./api/FakeStoreApi.js"></script>
+<script type="module" src="./components/carouselApplyModule.js"></script>
+<script type="module" src="./components/products.js"></script>
+</html>
