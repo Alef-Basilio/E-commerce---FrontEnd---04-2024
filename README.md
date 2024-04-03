@@ -17,6 +17,6 @@
 <h2 id="tech">Technologies</h2>
   .
 
-<h2 id="how">Technologies</h2>
+<h2 id="how">How was made</h2>
 ### Phases:
   .
