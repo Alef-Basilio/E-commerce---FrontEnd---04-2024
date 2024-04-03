@@ -4,6 +4,7 @@
 <a href="#how">How was made</a> |
 </p>
 
+
 <p align="center">
 <b>This application is a pessoal project.</b>
 </p>
@@ -14,9 +15,12 @@
   </p>
 </p>
 
+
 <h2 id="tech">Technologies</h2>
-  .
+  HTML, CSS and JavaScript.
+
 
 <h2 id="how">How was made</h2>
+
 ### Phases:
   .
