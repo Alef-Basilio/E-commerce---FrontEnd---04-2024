@@ -40,5 +40,5 @@ HTML, CSS and JavaScript.
 ...
 
 
-<h2 id="obj">Objective</h2>
+- <h2 id="obj">Objective</h2>
 ...
