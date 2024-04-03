@@ -25,14 +25,14 @@ https
 </p>
 
 
-<h2 id="tech">Technologies</h2>
+- <h2 id="tech">Technologies</h2>
 HTML, CSS and JavaScript.
 
 <!--### Client:
 
 ### Server:-->
 
-#### API:
+### API:
 ...
 
 
