@@ -1,7 +1,7 @@
 <h1 align="center" style="color: #805ad5; font-weight: bold;">Product Online Store</h1>
 <p align="center">
-<a href="#tech">Technolgies</a>|
-<a href="#how">How was made</a>|
+<a href="#tech">Technolgies</a> |
+<a href="#how">How was made</a> |
 </p>
 
 <p align="center">
