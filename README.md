@@ -1,8 +1,8 @@
 <h1 align="center" style="color: #805ad5; font-weight: bold;">Product Online Store</h1>
 <p align="center">
-<a href="#tech">Technolgies</a> |  
- <a href="#clone">Clone</a> |  
- <a href="#contribute">Contribute</a> |  
+<a href="#tech">Technolgies</a>|
+ <a href="#clone">Clone</a>|
+ <a href="#contribute">Contribute</a>|
  <a href="#license">License</a>
 </p>
 
@@ -15,3 +15,7 @@
     <img src="" width="800px">
   </p>
 </p>
+
+<h2 id="tech">Technologies</h2>
+### Client:
+  .
