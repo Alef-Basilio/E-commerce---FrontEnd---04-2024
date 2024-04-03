@@ -19,6 +19,10 @@
 <h2 id="tech">Technologies</h2>
   HTML, CSS and JavaScript.
 
+  <!--### Client:
+
+  ### Server:-->
+
 
 <h2 id="how">How was made</h2>
 
