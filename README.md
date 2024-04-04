@@ -17,7 +17,7 @@ Topics:
 
 
 <p align="center">
-<b>This application is a pessoal project.</b>
+<b>An e-commerce where the user can browse the home page and see the products.</b>
 </p>
 
 
