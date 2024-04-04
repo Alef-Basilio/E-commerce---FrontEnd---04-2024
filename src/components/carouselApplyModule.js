@@ -1,4 +1,4 @@
-import ApplyAnyProduct from "../api/fakeStoreApi.js";
+import ApplyAnyProduct from "../api/FakeStoreApi.js";
 
 const firstSlideChild = document.getElementById("firstSlideChild");
 const secondSlideChild = document.getElementById("secondSlideChild");
