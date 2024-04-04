@@ -1,7 +1,7 @@
 <h2 align="center">Deploy link:</h2>
 
 ```
-[https](https://alef-basilio.github.io/E-commerce---FrontEnd/)
+https://alef-basilio.github.io/E-commerce---FrontEnd/
 ```
 
 
