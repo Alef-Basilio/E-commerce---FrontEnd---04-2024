@@ -40,6 +40,7 @@ Fake Store Api.
 <h2 id="how" align="center">How was made</h2>
 I was inspired by common things in the interface of other e-commerces and aimed to standardize the code for easy reading through order patterns, also using naming methods for functions, classes and files.
 I made a class in the API fetch trying to make it easier to use later and, although it really made it easier, I didn't follow SOLID's Single Responsibility Principle.
+</br>
 All elements was responsive since from creation for all different devices.
 
 
