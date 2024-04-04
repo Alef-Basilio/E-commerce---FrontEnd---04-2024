@@ -1,4 +1,4 @@
-- <h2>Deploy link:</h2>
+<h2 align="center">Deploy link:</h2>
 
 ```
 https
@@ -25,7 +25,7 @@ https
 </p>
 
 
-- <h2 id="tech" align="center">Technologies</h2>
+<h2 id="tech" align="center">Technologies</h2>
 HTML, CSS and JavaScript.
 
 <!--### Client:
@@ -36,9 +36,9 @@ HTML, CSS and JavaScript.
 ...
 
 
-- <h2 id="how">How was made</h2>
+<h2 id="how" align="center">How was made</h2>
 ...
 
 
-- <h2 id="obj">Objective</h2>
+<h2 id="obj" align="center">Objective</h2>
 ...
