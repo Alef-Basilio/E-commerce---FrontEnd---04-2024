@@ -1,6 +1,6 @@
 <h2 align="center">Deploy link:</h2>
 
-@[ProductOnlineStore](https://alef-basilio.github.io/E-commerce---FrontEnd/)
+@[Product Online Store](https://alef-basilio.github.io/E-commerce---FrontEnd/)
 
 ```
 https://alef-basilio.github.io/E-commerce---FrontEnd/
