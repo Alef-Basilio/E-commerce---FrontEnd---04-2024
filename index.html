@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Online Store</title>
-    <link rel="stylesheet" href="../styles/patterns.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/carousel.css">
-    <link rel="stylesheet" href="../styles/pinnedMessage.css">
-    <link rel="stylesheet" href="../styles/products.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="shortcut icon" type="imagex/png" href="../../public/assets/images/logo2Ico.ico">
+    <link rel="stylesheet" href="./src/styles/patterns.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/carousel.css">
+    <link rel="stylesheet" href="./src/styles/pinnedMessage.css">
+    <link rel="stylesheet" href="./src/styles/products.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="shortcut icon" type="imagex/png" href="./public/assets/images/logo2Ico.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <div class="containerContent">
             <div class="flexRow">
                 <a id="logo" href="">
-                    <img id="logoIcon" src="../../public/assets/images/logo.png" alt="logo_icon">
+                    <img id="logoIcon" src="./public/assets/images/logo.png" alt="logo_icon">
                     <div class="flexRow">
                         <div id="logoWord">
                             <div>
@@ -37,9 +37,9 @@
                 <form id="formSearchBar" action="">
                 </form>
                 <div class="flexRow gapBetweenPattern">
-                    <a href="#"><img class="imagePattern" src="../../public/assets/images/terms.png" alt="terms_icon"></a>
-                    <a href="#"><img class="imagePattern" src="../../public/assets/images/support.png" alt="support_icon"></a>
-                    <a href="#"><img class="imagePattern" src="../../public/assets/images/cart.png" alt="cart_icon"></a>
+                    <a href="#"><img class="imagePattern" src="./public/assets/images/terms.png" alt="terms_icon"></a>
+                    <a href="#"><img class="imagePattern" src="./public/assets/images/support.png" alt="support_icon"></a>
+                    <a href="#"><img class="imagePattern" src="./public/assets/images/cart.png" alt="cart_icon"></a>
                     <i onclick="callMenu()" id="menuIcon" class="fa-solid fa-bars"></i>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                 </div>
                 <div id="logoAndTerms">
                     <a id="logo" href="">
-                        <img id="logoIcon" src="../../public/assets/images/logo.png" alt="logo_icon">
+                        <img id="logoIcon" src="./public/assets/images/logo.png" alt="logo_icon">
                         <div id="logoWord">
                             <div>
                                 <h1>Product</h1>
@@ -126,10 +126,10 @@
         </div>
     </footer>
 </body>
-<script src="./components/header.js"></script>
-<script src="./components/carousel.js"></script>
-<script src="./components/pinnedMessage.js"></script>
-<script type="module" src="./api/FakeStoreApi.js"></script>
-<script type="module" src="./components/carouselApplyModule.js"></script>
-<script type="module" src="./components/products.js"></script>
+<script src="./src/components/header.js"></script>
+<script src="./src/components/carousel.js"></script>
+<script src="./src/components/pinnedMessage.js"></script>
+<script type="module" src="./src/api/FakeStoreApi.js"></script>
+<script type="module" src="./src/components/carouselApplyModule.js"></script>
+<script type="module" src="./src/components/products.js"></script>
 </html>

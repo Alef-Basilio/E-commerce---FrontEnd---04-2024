@@ -77,7 +77,7 @@ function replaceSearchBar() {
         input.setAttribute("placeholder", "Search products");
         button.setAttribute("onclick", "searchBarRequired()");
         img.setAttribute("id", "searchIcon");
-        img.setAttribute("src", "../../public/assets/images/magGlass.png");
+        img.setAttribute("src", "./public/assets/images/magGlass.png");
         img.setAttribute("alt", "search_icon");
         
     if (window.innerWidth > breakWidth && formSearchBar[0] === undefined) {
