@@ -1,5 +1,5 @@
 <h2 align="center">Deploy link:</h2>
-<a src="https://alef-basilio.github.io/E-commerce---FrontEnd/" target="_blank">Product Online Store</a>
+<a href="https://alef-basilio.github.io/E-commerce---FrontEnd/" target="_blank">Product Online Store</a>
 
 ```
 https://alef-basilio.github.io/E-commerce---FrontEnd/
