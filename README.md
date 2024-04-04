@@ -1,4 +1,3 @@
-<h2 id="test"></h2>
 - <h2>Deploy link:</h2>
 
 ```
@@ -10,7 +9,7 @@ https
 <p align="center">
 <a href="#tech">Technolgies</a> |
 <a href="#how">How was made</a> |
-<a href="#test">Objective</a>
+<a href="#obj">Objective</a>
 </p>
 
 
