@@ -31,10 +31,6 @@ Topics:
 <h2 id="tech" align="center">Technologies</h2>
 HTML, CSS and JavaScript.
 
-<!--### Client:
-
-### Server:-->
-
 ### API:
 Fake Store Api.
 
