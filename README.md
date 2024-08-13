@@ -32,11 +32,11 @@ Topics:
 HTML, CSS and JavaScript.
 
 ### API:
-Fake Store Api.
+Fake Store API.
 
 
 <h2 id="how" align="center">How was made</h2>
-I was inspired by common things in the interface of other e-commerces and aimed to standardize the code for easy reading through order patterns, also using naming methods for functions, classes and files.
+Inspired by patterns in the interfaces of other e-commerces, both in terms of design and functionality, I focused on the presentation of products through their information and the simplicity of navigation.
 </br>
 I made a class in the API fetch trying to make it easier to use later, but I didn't follow SOLID's Single Responsibility Principle, although it really made it easier.
 </br>
