@@ -3,7 +3,7 @@
 @[Product Online Store](https://alef-basilio.github.io/E-commerce---FrontEnd---04-2024/)
 
 ```
-https://alef-basilio.github.io/E-commerce---FrontEnd/
+https://alef-basilio.github.io/E-commerce---FrontEnd---04-2024/
 ```
 
 
