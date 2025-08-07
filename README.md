@@ -23,7 +23,7 @@ Topics:
 
 <p align="center">
   <p align="center">
-    <img src="./public/assets/images/interface.png" width="100%">
+    <img alt="Error: reload the page to see the image" src="./public/assets/images/interface.png" width="100%">
   </p>
 </p>
 
