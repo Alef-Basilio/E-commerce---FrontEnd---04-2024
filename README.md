@@ -7,7 +7,7 @@ https://alef-basilio.github.io/E-commerce---FrontEnd---04-2024/
 ```
 
 
-<h1 align="center" style="color: #805ad5; font-weight: bold;">Product Online Store</h1>
+<h1 align="center" style="font-weight: bold;">Product Online Store</h1>
 <p align="center">
 Topics: 
 <a href="#tech">Technolgies</a> |
